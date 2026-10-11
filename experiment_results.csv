@@ -1,0 +1,10 @@
+network,mode,delivery_rate_pct,packet_loss_rate_pct,retransmissions,avg_delay_ms,throughput_pkt_per_s,efficiency_pct,avg_window,completion_time_s,integrity_ok_runs
+Good,Fixed window = 4,100.00,2.09,11.50,87.2,18.99,94.59,4.00,10.57,20
+Good,Fixed window = 16,100.00,2.01,10.95,89.3,47.58,94.83,16.00,4.40,20
+Good,Adaptive window,100.00,2.01,10.85,87.6,49.38,94.87,14.08,4.17,20
+Moderate,Fixed window = 4,100.00,5.99,34.35,247.8,5.82,85.42,4.00,34.65,20
+Moderate,Fixed window = 16,100.00,8.28,58.20,284.4,11.86,77.49,16.00,16.95,20
+Moderate,Adaptive window,100.00,6.40,34.50,253.7,6.99,85.39,5.20,30.32,20
+Poor,Fixed window = 4,100.00,16.08,96.70,713.7,1.88,67.56,4.00,107.51,20
+Poor,Fixed window = 16,100.00,22.26,169.45,924.2,3.82,54.18,16.00,52.88,20
+Poor,Adaptive window,100.00,17.31,112.35,739.3,2.27,64.34,6.25,94.91,20
